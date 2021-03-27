@@ -1,0 +1,210 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .container{
+        width: 768px !important;
+    }
+    .inner-container input {
+        width: 70% !important;
+        margin-bottom: 20px !important;
+    }
+    .inner-container button {
+        width: 75% !important;
+    }
+    .lets-section input {
+        width: 92% !important;
+    }
+    /* Fotter Section */
+    .fotter-top {
+        justify-content: space-evenly !important;
+    }
+    .socail-icon {
+        width: 85% !important;
+        margin: 0 auto !important;
+    }
+    .socail-icon p {
+        margin-top: 63px !important;
+        margin-bottom: -60px !important;
+        text-align: center !important;
+        font-size: 14px !important;
+    }
+  }
+
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* Newsletter Section */
+    .container {
+        margin: 0 auto;
+        width: 1024px !important;
+    }
+    /* Fotter Section */
+    .fotter-top {
+        padding: 60px !important;
+    }
+    .socail-icon ul {
+        padding: 10px 20px !important;
+    }
+    .socail-icon p {
+        text-align: center !important;
+        margin-top: 60px !important;
+        margin-bottom: -60px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .container{
+        width: 481px !important;
+    }
+    /* Newsletter Section */
+    .inner-container {
+        width: 100% !important;
+    }
+    .inner-container input {
+        width: 40% !important;
+        margin-right: 9px !important;
+        margin-bottom: 28px !important;
+    }
+    .inner-container button {
+        width: 49% !important;
+    }
+    /* Let's Section */
+    .lets-section input {
+        width: 93% !important;
+    }
+    /* Fotter Section */
+    .top-items h4 {
+        font-size: 11px !important;
+    }
+    .top-items ul li a {
+        font-size: 10px !important;
+    }
+    .socail-icon ul li i {
+        font-size: 12px !important;
+    }
+    .socail-icon ul li a {
+        font-size: 12px !important;
+    }
+    .socail-icon p {
+        text-align: center !important;
+        font-size: 12px !important;
+        margin-bottom: -60px !important;
+        margin-top: 38px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* Newsletter Section */
+    .container {
+        width: 320px !important;
+        margin: 0 auto;
+    }
+    .inner-container {
+        width: 57vh !important;
+        margin: 0 !important;
+        margin-left: 20px !important;
+    }
+    .inner-container h1 {
+        font-size: 35px !important; 
+    }
+    .inner-container p {
+        font-size: 14px !important;
+        line-height: 26px !important;
+
+    }
+    .inner-container input {
+        width: 93% !important;
+        margin: 10px 0 !important;
+    }
+    .inner-container button {
+        width: 104% !important;
+        margin-left: 1px !important;
+        margin-top: 12px !important;
+    }
+    /* Let's Section */
+    .lets-section input {
+        width: 90% !important;
+    }
+    .form textarea {
+        height: 128px !important;
+    }
+    /* Fotter Section */
+    .fotter-top {
+        display: inline-block !important;
+        justify-content: unsafe !important;
+        padding-bottom: 40px;
+    }
+    .top-items {
+        float: left;
+        width: 45% !important;
+        margin: 0 0 0 16px !important;
+        margin-bottom: 20px !important;
+    }
+    .socail-icon ul li {
+        display: inline-block;
+        padding: 5px 0 !important;
+        border-right: 1px solid #ddd;
+        margin: 9px 0 !important;
+        padding-right: 3px !important;
+    }
+    .socail-icon ul li i {
+        padding: 5px !important;
+        font-size: 15px !important;
+    }
+    .socail-icon ul li a {
+        font-size: 10px !important;
+    }
+    .socail-icon p {
+        font-size: 10px !important;
+        text-align: center !important;
+        margin-bottom: -57px !important;
+        margin-top: 47px !important;
+    }
+  }
